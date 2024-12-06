@@ -2,11 +2,15 @@
 
 Get started quickly with an LLM project in TypeScript. With testing and CI/CD.
 
-Features
+Example code generates a Haiku poem and then tests Haiku's validity with a different LLM model.
+
+## Features
 
 - use any LLM model that is supported by the Vercel AI SDK, such as from Anthropic.
 - automated testing with `vitest` (using a less expensive model)
 - GitHub action that runs tests on every push
+
+## Get started
 
 Create a `.env` file with the following:
 
